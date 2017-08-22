@@ -1,0 +1,31 @@
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+header {
+  background-color: blue
+}
+
+section {
+  background-color: purple;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+#true {
+  background-color: green;
+
+}
+
+#false {
+  background-color: red;
+}
