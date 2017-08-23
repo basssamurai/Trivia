@@ -35,8 +35,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-
 }
 
 #true {
@@ -47,7 +45,6 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50px;
-
 }
 
 #false {
