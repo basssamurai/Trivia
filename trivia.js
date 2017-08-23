@@ -33,39 +33,25 @@ if(questions === 0) {
   $('.statement').html(statements[0].statement)
   }
 }
-/*if(answers === 0) {
-  for(i = 0; i <statements.length; i++) {
-  }
-}*/
 
 function checkTrueStatement() {
-  console.log(trueButton.text())
-  console.log(statements[questions].answer)
   var buttonText = (trueButton.text() === "True")
-
   if(buttonText === statements[questions].answer) {
     alert('Correct!')
-//    $('.statement').html(statements[answers].statement)
   } else {
     alert('Incorrect!')
-//    $('.statement').html(statements[answers].statement)
   }
-  //return answers++
   questions++
   $('.statement').html(statements[questions].statement)
 }
 
 function checkFalseStatement() {
   var buttonText = (trueButton.text() === "False")
-
   if(buttonText === statements[questions].answer) {
     alert('Correct!')
-//    $('.statement').html(statements[answers].statement)
   } else {
     alert('Incorrect!')
-//    $('.statement').html(statements[answers].statement)
   }
-//  return answers++
 questions++
 $('.statement').html(statements[questions].statement)
 }
