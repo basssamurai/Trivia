@@ -1,6 +1,6 @@
 body {
   background-image: url('trivia-bgimage.jpg');
-  background-position: cover;
+  
 }
 
 .gameboard {
@@ -10,19 +10,17 @@ body {
 }
 
 .title {
-  background-color: none;
   color: white;
   font-size: 150px;
   font-family: 'Roboto' , sans-serif;
   height: 250px;
   margin: 0px 400px 100px 400px;
-  padding: 100 200 100 200;
+  padding: 100px 200px 100px 200px;
   text-align: center;
   line-height: 230px;
 }
 
 .statement {
-  background-color: none;
   color: white;
   font-size: 35px;
   height: 250px;
