@@ -10,7 +10,9 @@ body {
 
 .title {
   color: white;
-  font-size: 150px;
+  font-size: 150px; /*I'd suggest lowering this to somewhere in 48px-96px
+  since you have to scroll down to see the button with the headeer being as
+  large as it is. */
   font-family: 'Roboto' , sans-serif;
   height: 250px;
   margin: 0px 400px 100px 400px;
